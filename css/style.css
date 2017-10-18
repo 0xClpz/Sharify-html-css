@@ -1,3 +1,249 @@
-p{
-  color: tomato;
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+body, ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+body{
+  background: #F2F2F2;
+  font-family: Roboto;
+}
+
+nav {
+  background: black;
+  height: 50px;
+  width: 100%;
+}
+
+nav a {
+  float: left;
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+}
+nav .brand {
+  width: 30px;
+  height: 30px;
+}
+
+nav ul {
+  float: right;
+  list-style: none;
+}
+
+nav ul li{
+  float: right;
+}
+
+nav ul li a {
+  padding: 10px;
+  display: block;
+  width: 30px;
+  height: 30px;
+}
+
+nav ul li a img {
+  width: 30px;
+  height: 30px;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.edit {
+  display: block;
+  padding: 5px 15px;
+  border: 1px solid #596bd5;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  box-sizing: border-box;
+  padding: 30px 15px 15px;
+  margin: 0 auto;
+}
+
+.box{
+  background: white;
+  padding: 30px 30px 60px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+header{
+  padding: 0 15px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+header .img-content {
+  background: #d5d5d5;
+  height: 175px;
+  width: 175px;
+  border-radius: 88px;
+  display: inline-block;
+  vertical-align: middle;
+}
+header .content{
+  display: inline-block;
+  margin-left: 30px;
+  vertical-align: middle;
+}
+
+header .content h4 {
+  margin-bottom: 5px;
+}
+
+.column{
+  padding: 0 15px;
+  width: 50%;
+  box-sizing: border-box;
+}
+.clearfix{
+  clear: both;
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+
+.box h4 {
+  margin-top: 0;
+}
+
+.links li {
+  margin-bottom: 20px;
+}
+
+.links li a i {
+  width: 20px;
+  height:20px;
+  background: #d5d5d5;
+  margin-right: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.divider {
+  height: 1px;
+  background: black;
+  width: calc(100% + 60px);
+  margin: 30px -30px;
+
+}
+
+
+
+.skills .chip {
+  background: #d5d5d5;
+  display: inline-block;
+  float: left;
+  border-radius: 15px;
+  padding: 3px 10px;
+  margin-right: 7px;
+}
+
+.skills .chip.more {
+  background: #596bd5;
+  color: white;
+}
+
+.events .event{
+  padding: 15px 0;
+  position: relative;
+  border-bottom: 1px solid #d5d5d5;
+}
+
+.events .event:last-child{
+  border: none;
+}
+
+.events .event .date{
+  background: #d5d5d5;
+  border: 1px solid black;
+  padding: 7px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 4px;
+  width: 60px;
+  box-sizing: border-box;
+ }
+
+.events .event .date p{
+  margin: 0;
+}
+
+.events .event .date .day{
+  font-size: 24px;
+}
+.events .event .date .month{
+  font-size: 14px;
+}
+
+.events .event .content {
+  display: inline-block;
+  padding-left: 15px;
+  vertical-align: bottom;
+}
+
+.events .event .content p {
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+
+.events .event a {
+  display: block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  text-decoration: none;
+  padding: 5px 15px;
+  border: 1px solid #596bd5;
+}
+
+.badges {
+  margin: 0 -15px;
+}
+
+.badges li{
+  width: 25%;
+  padding: 0 15px;
+  box-sizing: border-box;
+  float: left;
+}
+
+.badges::after{
+  display: block;
+  content: '';
+  clear: both;
+}
+
+.badges li .badge{
+  background: #d5d5d5;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  margin: 0 auto;
+}
+
+.top-right{
+  position: absolute;
+  top: 14px;
+  right: 30px;
+}
+
+.all {
+  display: block;
+  margin: 16px 0;
 }
